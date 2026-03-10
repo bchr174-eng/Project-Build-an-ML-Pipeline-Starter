@@ -57,7 +57,7 @@ if __name__ == "__main__":
   
     parser.add_argument(
         "--input_artifact", 
-        type = ## INSERT TYPE HERE: str, float or int,
+        type = str,
         help = ## INSERT DESCRIPTION HERE,
         required = True
     )
