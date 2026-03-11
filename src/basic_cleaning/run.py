@@ -58,42 +58,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = ## INSERT DESCRIPTION HERE,
+        help = "",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
+        help = "",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
+        help = "",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str,## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
+        help = "",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
         type = float,## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
+        help = "",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--max_price",
         type = float,## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
+        help = "",## INSERT DESCRIPTION HERE,
         required = True
     )
 
