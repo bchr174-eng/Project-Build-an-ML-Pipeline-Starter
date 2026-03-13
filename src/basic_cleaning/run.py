@@ -58,42 +58,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = "Input artifact to be worked on; must be a str.",## INSERT DESCRIPTION HERE,
+        help = "Ininital artifact to be cleaned.",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,## INSERT TYPE HERE: str, float or int,
-        help = "Output artifact after changes are made must be a str.",## INSERT DESCRIPTION HERE,
+        help = "Output artifact for cleaned data.",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,## INSERT TYPE HERE: str, float or int,
-        help = "output type. must be a str.",## INSERT DESCRIPTION HERE,
+        help = "Type of the output dataset.",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str,## INSERT TYPE HERE: str, float or int,
-        help = "description of the output. must be a str.",## INSERT DESCRIPTION HERE,
+        help = "Description of the output dataset.",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
         type = float,## INSERT TYPE HERE: str, float or int,
-        help = "minimum price. is a float.",## INSERT DESCRIPTION HERE,
+        help = "Minimum house price to be considered.",## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--max_price",
         type = float,## INSERT TYPE HERE: str, float or int,
-        help = "max price. is a float.",## INSERT DESCRIPTION HERE,
+        help = "Maximum house price to be considered.",## INSERT DESCRIPTION HERE,
         required = True
     )
 
